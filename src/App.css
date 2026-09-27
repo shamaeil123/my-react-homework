@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.blog-card {
+  width: 350px;
+  margin: 50px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  text-align: left;
+  background-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blog-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blog-content {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.blog-title {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.blog-meta {
+  font-size: 13px;
+  color: #757575;
+  margin-bottom: 15px;
+}
+
+.blog-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.blog-btn {
+  background-color: #1976d2;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-btn:hover {
+  background-color: #1565c0;
 }
